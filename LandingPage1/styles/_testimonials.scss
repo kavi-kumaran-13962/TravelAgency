@@ -1,0 +1,83 @@
+.testimonial {
+  &__newsletter {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    box-shadow: 2px 3px 17px rgba(0, 0, 0, 0.103);
+    border-radius: 2rem;
+    transition: 0.3s ease;
+    &--inp {
+      margin: 0 1rem;
+      height: 38px;
+      width: 180px;
+      border-radius: 2rem;
+      border: none;
+      background-color: $color2;
+      padding-left: 5rem;
+    }
+    &--btn {
+      border: none;
+      padding: 1.3rem;
+      border-radius: 50%;
+      background-color: $color;
+      color: white;
+      box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.193);
+      font-size: 16px;
+      cursor: pointer;
+    }
+    &--btn:hover {
+      background-color: darken($color: $color, $amount: 5%);
+    }
+  }
+  &__newsletter:hover {
+    box-shadow: 2px 3px 17px rgba(0, 0, 0, 0.404);
+  }
+  &__last {
+    &--cont {
+      background-color: $color3;
+      padding-top: 0.3rem;
+      padding-bottom: 2rem;
+      ul {
+        margin: 0;
+        color: white;
+        display: flex;
+      }
+      li {
+        list-style: none;
+        margin-left: 2rem;
+        font-size: 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      li:hover {
+        color: $color;
+      }
+    }
+    &--title {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+    }
+    &--sm {
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
+  &__line {
+    width: 90%;
+    height: 1px;
+    margin: 1rem auto;
+    margin-top: 1.5rem;
+    background-color: white;
+  }
+  &__cr {
+    color: white;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+  }
+}

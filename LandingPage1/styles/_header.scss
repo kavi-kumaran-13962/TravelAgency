@@ -1,0 +1,52 @@
+.header {
+  height: 100vh;
+  background-image: url("../bg-landng.jpg");
+  background-size: cover;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    &--logo {
+      margin-left: 3rem;
+      color: white;
+    }
+    &--content {
+      display: flex;
+      align-items: center;
+      margin-right: 3rem;
+    }
+    &--btn {
+      margin-left: 3rem;
+    }
+
+    &--link {
+      margin-right: 2rem;
+      color: white;
+      text-decoration: none;
+      transition: all 0.6s;
+    }
+
+    &--link:hover {
+      text-decoration: underline;
+      color: $color;
+    }
+  }
+  &__content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    &--big {
+      width: 500px;
+      font-size: 40px;
+    }
+    &--small {
+      font-family: Poppins, sans-serif;
+    }
+  }
+  .btn-book {
+    margin-top: 2rem;
+  }
+}

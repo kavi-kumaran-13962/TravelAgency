@@ -1,0 +1,154 @@
+@media only screen and (max-width: 800px) {
+  .header {
+    &__nav {
+      &--nav {
+        display: none;
+      }
+      &--logo {
+        margin-left: 0;
+      }
+      &--content {
+        margin-right: 0;
+      }
+      &--logoTxt {
+        font-size: 30px;
+      }
+    }
+  }
+  .btn {
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .header {
+    &__content {
+      left: 40%;
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .header {
+    &__content {
+      &--big {
+        width: 400px;
+        font-size: 30px;
+      }
+      &--small {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    &__content {
+      left: 50%;
+      top: 50%;
+      &--big {
+        width: 300px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    height: 150vh;
+    &__container {
+      flex-direction: column-reverse;
+      box-shadow: none;
+      justify-content: center;
+      height: none;
+      top: 55%;
+    }
+    &__image {
+      width: 300px;
+    }
+    &__content {
+      width: 300px;
+      height: 435px;
+      padding: 0 1rem;
+      margin: 2rem 1rem;
+      align-self: center;
+    }
+    &__title {
+      font-size: 45px;
+      margin: 1rem;
+    }
+    &__bigTxt {
+      margin: 1rem;
+      font-size: 16px;
+    }
+    &__smallTxt {
+      margin: 1rem;
+    }
+  }
+  .btn-about {
+    margin-top: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .videos {
+    &__big {
+      width: 90%;
+      height: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) and (max-height: 650px) {
+  .videos {
+    height: 165vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .experience {
+    background-color: #fdf2ee;
+    .swiper-container {
+      width: 100%;
+    }
+    .swiper-slide {
+      background-color: #fdf2ee;
+    }
+    &__title {
+      background-color: #fdf2ee;
+    }
+  }
+  .videos__small {
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 220px;
+      height: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .recommendations {
+    &__package {
+      width: 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .testimonial {
+    &__newsletter {
+      width: 300px;
+      flex-wrap: wrap;
+      &--txt {
+        font-size: 16px;
+        margin: 1rem auto;
+      }
+      &--btn {
+        margin: 1rem auto;
+      }
+    }
+  }
+}

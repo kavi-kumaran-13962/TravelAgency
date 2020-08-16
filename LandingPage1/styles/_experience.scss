@@ -1,0 +1,61 @@
+.experience {
+  margin-top: 6rem;
+  height: 75vh;
+  background-color: white;
+  .swiper-container {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: white;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  &__title {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 1rem;
+    color: $color3 !important;
+
+    &--txt {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  &__image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    &--img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  &__text {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    width: 70%;
+    margin: 1rem auto;
+  }
+  &__place {
+    font-family: Poppins, sans-serif;
+  }
+}

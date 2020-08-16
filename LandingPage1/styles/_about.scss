@@ -1,0 +1,48 @@
+.about {
+  height: 100vh;
+  &__container {
+    max-width: 1300px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.4rem;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.193);
+  }
+  &__image {
+    width: 400px;
+    &--img {
+      width: 100%;
+      border-radius: 2rem;
+    }
+  }
+  &__content {
+    align-self: start;
+    background-color: $color2;
+    width: 400px;
+    height: 435px;
+    padding: 0 3rem;
+    margin: 0 3rem;
+  }
+  &__title {
+    font-size: 75px;
+    margin: 1rem;
+    color: white;
+  }
+  &__bigTxt {
+    margin: 1rem;
+    font-size: 26px;
+  }
+  &__smallTxt {
+    margin: 1rem;
+    font-family: Poppins, sans-serif;
+  }
+  .btn-about {
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+  }
+}
